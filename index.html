@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JustWavs Uploader</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1d1f; --muted: #5f5f66; --link: #2453c7; --rule: #e3e1db; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151517; --fg: #ececf0; --muted: #a3a3ad; --link: #8fb0ff; --rule: #2c2c31; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  a { color: var(--link); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>JustWavs Uploader</h1>
+  <p class="sub">A private publishing tool for the YouTube channel <a href="https://www.youtube.com/@JustWavs">JustWavs</a>.</p>
+
+  <p>JustWavs Uploader is used only by the creator of the JustWavs channel to put that channel's own videos on YouTube with the YouTube Data API. It isn't offered to anyone else, and it acts only on the JustWavs channel.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Uploads finished JustWavs videos as Private, with their title, description, tags, playlist, thumbnail and captions.</li>
+    <li>Schedules each video to go public at its planned time, after the creator has checked it in YouTube Studio.</li>
+    <li>Checks that scheduled videos went live, so the channel's production tracker stays accurate.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>It reads and changes only the JustWavs channel's own videos and playlists, keeps its sign-in on the creator's computer, and shares nothing with anyone. Details are in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:nextwavmusic.ai@gmail.com">nextwavmusic.ai@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
